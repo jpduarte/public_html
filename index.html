@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
 	<!--//web-fonts-->
 	<style>
-div.gallery2 {
+div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
@@ -44,11 +44,11 @@ div.gallery2 {
 				height: 350px;
 }
 
-div.gallery2:hover {
+div.gallery:hover {
     border: 1px solid #777;
 }
 
-div.gallery2 img {
+div.gallery img {
     width: 100%;
     height: auto;
 }
@@ -661,14 +661,15 @@ div.desc {
 	<!-- //language -->
 
 
-<div class="gallery" id="portfolio">
+
+<div class="gallery2" id="portfolio">
 	<div class="container">
 	  <div class="title-wthree">
 	   <h5 class="title-w3">Portfolio (Under Contruction)</h5>
 	   <div class="clearfix"></div>
 	 </div>
 	 <div class="w3ls_gallery_grids">
-	  <div class="gallery2">
+	  <div class="gallery">
 	    <a href="http://ieeexplore.ieee.org/abstract/document/7313862/">
 	      <img src="./images/combine_images.png" alt=" " width="300" height="200">
 
@@ -676,14 +677,14 @@ div.desc {
 	    <div class="desc"><h3> Unified FinFET Compact Model for FinFETs, Gate-All-Around FETs, and other complex devices </h3></div>
 	  </div>
 
-	  <div class="gallery2">
+	  <div class="gallery">
 	    <a href="https://drive.google.com/file/d/1RQrkgHr-ur21c5cXF5RyE8nlH3wuM3TH/view?usp=sharing">
 	      <img src="./images/asic1.png" alt=" " width="600" height="400">
 	    </a>
 	    <div class="desc"> <h3> Low power ASIC design and optimization for neural spike detection </h3></div>
 	  </div>
 
-	  <div class="gallery2">
+	  <div class="gallery">
 	    <a href="https://github.com/jpduarte/hardwaremakers">
 	      <img src="./images/decal.png" alt=" " width="600" height="400">
 	    </a>
@@ -691,7 +692,7 @@ div.desc {
 	  </div>
 
 	   </div>
-				<div class="gallery2">
+				<div class="gallery">
 		    <a href="https://drive.google.com/file/d/1N_IskrNstjy-zZrPgcjh7u8wItHb6rPw/view?usp=sharing">
 		      <img src="./images/variability1.png" alt=" " width="600" height="400">
 		    </a>
@@ -700,16 +701,16 @@ div.desc {
 
 
 
-				<div class="gallery2">
+				<div class="gallery">
 						<a href="https://github.com/jpduarte/fdsim">
-								<img src="./images/2dncfinfet.png" alt=" " width="300" height="200">
+								<img src="./images/2dncfinfet.png" alt=" " width="300" height="200" class="img-responsive" >
 						</a>
 						<div class="desc"><h3> Quasi 2D numerical simulation of NC-FinFETs</h3></div>
 				</div>
 
-				<div class="gallery2">
+				<div class="gallery">
 						<a href="http://jacobsinstitute.berkeley.edu/student-project/interaboard/">
-								<img src="./images/interaboard2.png" alt=" " width="300" height="200">
+								<img src="./images/interaboard2.png" alt=" " width="300" height="200" class="img-responsive" >
 						</a>
 						<div class="desc"><h3> Interactive Device Design: Hardware and software co-development </h3></div>
 				</div>
@@ -718,8 +719,7 @@ div.desc {
 
 
 		   </div>
-</div>
-</div>
+
 
 	<!-- footer -->
 
@@ -797,11 +797,7 @@ div.desc {
 	<script src="js/jquery.chocolat.js"></script>
 	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
 	<!--light-box-files -->
-	<script type="text/javascript">
-		$(function () {
-			$('.w3_agile_gallery_grid a').Chocolat();
-		});
-	</script>
+
 	<!-- //gallery -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
